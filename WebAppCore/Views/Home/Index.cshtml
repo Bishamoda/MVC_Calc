@@ -1,0 +1,30 @@
+﻿@model WebAppCore.Models.Calculation;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form asp-action="Index">
+    <div class="text-center">
+        <h1 class="display-4">Calculator</h1>
+        <br />
+        <br />
+
+        <p><label>FirstNumber</label></p>
+        <p><input type="text" name="Number1" value="@ViewData["Number1"]" /></p>
+
+        <p><label>SecondNumber</label></p>
+        <p><input type="text" name="Number2" value="@ViewData["Number2"]" /></p>
+
+        <p><label>Result</label></p>
+        <p><input type="text" name="Result" value="@ViewData["Result"]" /></p>
+
+
+        <input type="submit" value="+" asp-for="Op" />
+        <input type="submit" value="-" asp-for="Op" />
+        <input type="submit" value="*" asp-for="Op" />
+        <input type="submit" value="/" asp-for="Op" />
+        <input type="submit" value="c" asp-for="Op" />
+
+
+    </div>
+</form>
