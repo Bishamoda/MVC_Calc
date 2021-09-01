@@ -6,10 +6,10 @@
 Clone this app on your computer (select the folder yourself) with comand:
 git clone https://github.com/Bishamoda/MVC_Calc.git
 
-Open "CMD" in folder (which were chosen earlier). Write commands:
-cd MVC_Calc\WebAppCore
-dotnet build
-dotnet run
+Open "CMD" in folder (which were chosen earlier). Write commands:  
+cd MVC_Calc\WebAppCore  
+dotnet build  
+dotnet run  
 
 After that, open the browser and enter: http://localhost: 5000/. 
 
